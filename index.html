@@ -1,152 +1,127 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
   <meta charset="utf-8">
-  <title>Anna Włódarkiewicz</title>
+  <title>20 CSS tricks by Aga from The Awwwesomes</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/grid.css" type="text/css">
   <link rel="stylesheet" href="css/styles.css" type="text/css">
-  <link rel="stylesheet" href="css/bootstrap-grid.css" type="text/css">
-  <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&family=Prata&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Karla:400,700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Darker+Grotesque:400,600,700&display=swap" rel="stylesheet">
 </head>
-  <body>
+
+<body>
+  <header>
     <nav>
-      <ul class="navigation">
-        <li><a href="#hello">hello</a></li>
-        <li><a href="#works">works</a></li>
-        <li><a href="#myteam">my team</a></li>
-        <li><a href="#contacts">contact</a></li>
+      <ul>
+        <li><a href="#">intro</a></li>
+        <li><a href="#">projects</a></li>
+        <li><a href="#">about me</a></li>
+        <li><a href="#">contact</a></li>
       </ul>
     </nav>
-<header class="row" id="hello">
-  <!-- left column -->
-  <section class="col left-col">
-  <div class="top-container">
-    <h1>hello</h1>
-    <p>I'm Anna and this is my personal website. I'm a coding designer, so you can checkout my works here. </p>
-</div>
-  </section>
-  <!-- right column -->
-  <section class="col right-col">
-    <div class="top-container">
-    <img src="img/cactus.jpg" alt="Cactus"/>
-    <p>photo by Nicole Honeywill</p>
-</div>
-  </section>
-</header>
-<main class="container">
-  <p class="scroll">scroll down to find out more about myself</p>
-  <!-- works -->
-  <section class="works" id="works">
-    <h2>works</h2>
+    <img src="img/plant.png" alt="plant" class="plant" />
+    <section class="divider">
+      <h2>Open your eyes<br>be present<br>& enjoy your day</h2>
+    </section>
+    <img src="img/plant.png" alt="plant" class="plant-background" />
+    <img src="img/plant.png" alt="plant" class="plant-background bottom" />
+    <img src="img/hand.png" alt="" class="hand" />
+  </header>
 
-    <!-- first -->
-    <div class="row no-gutters">
-      <div class="col">
-      <h4>branding&web</h4>
-      <img src="img/pineapp.jpg" class="works-img" alt="Pineapple"/>
-    </div>
-    <div class="col">
-      <div class="extra-gutters">
-      <h3>pineapp.</h3>
-      <p>Period: March-April 2021<br>
-        Team:Anna (UI), Piotr (UX), Maria (Front-end)</p>
-        <a href="">VISIT THE WEBSITE</a>
-      </div>
-      </div>
-    </div>
+  <div class="container">
+    <section class="row">
+      <div class="centered">
+        <p class="intro">Fashion axe austin DIY wolf 3 wolf moon, direct trade YOLO tote bag paleo blog. Cloud bread cray, 3 wolf moon before they sold out literally normcore retro ennui fam umami letterpress actually distillery vinyl.
+          <br><br> Wayfarers slow-carb umami VHS. This is my tel number <span class="tel-number">+004334<wbr>34323<wbr>4323<wbr>4234.</span> Cloud bread glossier shaman squid food truck venmo deep v semiotics. Cornhole quinoa 90's, banh mi stumptown 3 wolf moon glossier farm-to-table
+          8-bit chicharrones. Letterpress normcore adaptogen lo-fi chicharrones typewriter hexagon polaroid. Gastropub live-edge wolf waistcoat. Lo-fi bitters VHS meggings godard. Cronut plaid tofu mixtape selvage actually hell of irony kickstarter franzen
+          vinyl godard trust fund neutra selfies.</p>
 
-    <!-- second -->
-    <div class="row no-gutters">
-      <div class="col">
-        <div class="extra-gutters right-aligned">
-      <h3>healthy dining.</h3>
-      <p>Period: June-September 2021<br>
-        Team:Anna (UI), Piotr (UX), Maria (Front-end)</p>
-        <a href="">VISIT THE WEBSITE</a>
-      </div>
-      </div>
-      <div class="col">
-        <h4 class="right-aligned">branding&mobile</h4>
-        <img src="img/healthydining.jpg" class="works-img" alt="Healthy Dining"/>
-      </div>
-    </div>
-    <!-- third -->
-    <div class="row no-gutters">
-      <div class="col">
-      <h4>branding&web</h4>
-      <img src="img/smartcity.jpg" class="works-img" alt="Smart City"/>
-    </div>
-    <div class="col">
-      <div class="extra-gutters">
-      <h3>smart city.</h3>
-      <p>Period: September 2021-january 2022<br>
-        Team:Anna (UI), Piotr (UX), Maria (Front-end)</p>
-        <a href="">VISIT THE WEBSITE</a>
-      </div>
-      </div>
-    </div>
-  </section>
+        <p class="shortened">Next level activated charcoal blog shaman, mixtape vinyl williamsburg artisan fashion axe gastropub tousled put a bird on it fixie gentrify. Selfies beard biodiesel air plant VHS pug waistcoat salvia photo booth pork belly meditation single-origin
+          coffee offal fam. Roof party scenester woke, pitchfork hoodie bicycle rights art party thundercats. Chambray pabst ramps, forage selvage normcore quinoa stumptown 8-bit thundercats cornhole organic. Chillwave live-edge fixie kogi selvage stumptown
+          humblebrag skateboard etsy waistcoat brooklyn coloring book jianbing. Gochujang kickstarter palo santo pork belly vice cardigan, stumptown authentic sriracha microdosing. Sriracha freegan next level, umami fam adaptogen waistcoat roof party
+          chicharrones meditation craft beer retro wayfarers.</p>
 
-  <!-- my team -->
-  <section class="myteam" id="myteam">
-    <h2>my team</h2>
-    <div class="row">
-          <div class="col-md-6">
-              <img src="img/team1.jpg" class="img-margin" alt="Team picture"/>
-              <img src="img/team2.jpg"  class="img-margin" alt="Team picture"/>
-          </div>
-        <div class="col">
-              <h3>how <br>we started</h3>
-              <p>Whatever crucifix hexagon listicle keytar, blue bottle fap beard vinyl wayfarers tattooed. Viral direct trade meditation etsy venmo fingerstache. Post-ironic shabby chic try-hard, PBR&B man braid you probably haven't heard of them pour-over food truck VHS leggings iceland salvia copper mug.
-                <br><br>
-              Austin pitchfork heirloom quinoa disrupt, twee locavore DIY small batch bicycle rights pop-up gochujang venmo. Deep v blue bottle hell of, kale chips man bun pok pok aesthetic letterpress stumptown. Helvetica 8-bit live-edge, narwhal snackwave meggings hoodie whatever mumblecore seitan next level. Pok pok kale chips freegan pabst cardigan.
-              <br><br>
-              Pabst raw denim ramps, lo-fi hammock keffiyeh vape. VHS master cleanse franzen slow-carb letterpress literally, bushwick fingerstache scenester blue bottle. Aesthetic thundercats YOLO, freegan deep v 8-bit scenester affogato. Try-hard stumptown ugh pitchfork enamel pin waistcoat. Asymmetrical etsy church-key, leggings scenester vape meditation offal blog thundercats semiotics chicharrones. Offal iPhone forage sustainable. Cronut irony chillwave poke celiac.
-              <br><br>
-              Next level iceland blue bottle fingerstache:
-            </p>
-          <ul>
-              <li>hella ennui banh mi iPhone kitsch prism VHS marfa fixie</li>
-              <li>Typewriter direct trade shoreditch,small batch hexagon</li>
-              <li>Poutine jean shorts kale chips normcore.</li>
-          </ul>
+        <a href="">read more on linkedin</a>
+      </div>
+    </section>
+
+    <section class="row">
+      <div class="centered">
+        <ol class="numbered-list">
+          <li>Fashion axe austin DIY wolf 3 wolf moon.</li>
+          <li>Direct trade YOLO tote bag paleo blog.</li>
+          <li>Meggings cloud bread crayg.</li>
+          <li>Selfies beard biodiesel air plant.</li>
+          <li>Chambray pabst ramps, forage selvage normcore quinoa.</li>
+          <li>Chicharrones meditation craft beer retro wayfarers.</li>
+        </ol>
+        <p class="truncate">Fashion axe austin DIY wolf 3 wolf moon, direct trade YOLO tote bag paleo blog. Meggings cloud bread cray, 3 wolf moon before they sold out literally normcore retro ennui fam umami letterpress actually distillery vinyl. Wayfarers slow-carb umami
+          VHS. Unicorn activated charcoal fanny pack tbh subway tile knausgaard PBR&B. Keytar letterpress taxidermy disrupt celiac beard woke chillwave jean shorts williamsburg brunch yr. Gochujang 90's vinyl tacos. Wayfarers bitters shaman, portland
+          kogi kale chips glossier. Selvage edison bulb vice chicharrones tousled, lumbersexual meh. Vape tote bag chicharrones waistcoat, knausgaard polaroid disrupt pinterest chambray. Umami mixtape truffaut taxidermy listicle adaptogen normcore wolf
+          church-key mustache poke blog tacos chicharrones fingerstache. Tumeric scenester letterpress yr enamel pin leggings asymmetrical, cloud bread keffiyeh fanny pack flexitarian banjo vinyl kinfolk.</p>
+      </div>
+    </section>
+  </div>
+
+  <img src="img/plant.png" alt="plant" class="plant-background bottom right" />
+  <img src="img/plant.png" alt="plant" class="plant right">
+
+  <div class="container chart-part">
+    <section class="row">
+      <div class="col-md-6">
+        <div class="piechart">
+          <h2>usage of social media</h2>
         </div>
       </div>
+      <div class="col-md-6">
+        <div class="chart-legend">
+          <span class="fb">34% Facebook</span> <span class="ig">31% Instagram</span> <span class="twitter">25% Twitter</span>
+        </div>
+        <p>Research conducted in 2019, presenting the usage of social media.</p>
+        <p>Fashion axe austin DIY wolf 3 wolf moon, direct trade YOLO tote bag paleo blog. Meggings cloud bread cray, 3 wolf moon before they sold out literally normcore retro ennui fam umami letterpress actually distillery vinyl. Wayfarers slow-carb umami
+          VHS.</p>
+      </div>
+    </section>
+  </div>
+
+
+  <section class="container">
+    <div class="centered">
+      <p>Fashion axe austin DIY wolf 3 wolf moon, direct trade YOLO tote bag paleo blog. Meggings cloud bread cray, 3 wolf moon before they sold out literally normcore retro ennui fam umami letterpress actually distillery vinyl. Wayfarers slow-carb umami
+        VHS.</p>
+      <ul class="list">
+        <li>Fashion axe austin DIY wolf 3 wolf moon.</li>
+        <li>Direct trade YOLO tote bag paleo blog.</li>
+        <li>Meggings cloud bread crayg.</li>
+      </ul>
+      <p>Unicorn activated charcoal fanny pack tbh subway tile knausgaard PBR&B.</p>
+    </div>
   </section>
 
-  <!-- contacts -->
-  <section class="contacts" id="contacts">
-    <h2>contacts</h2>
-    <div class="row">
-      <div class="col">
-    <p>Email: youremail@youremail.com</p>
-    <p>Our office is located in the heart of Warsaw <br>
-      Feel free to say hello!</p>
-    <p><strong>Warsaw St. 23/21<br>
-    03-323 Warsaw,<br>
-    POLAND</strong></p>
-  </div>
-<div class="col">
-    <img src="img/contact1.jpg" alt=""/>
-  </div>
-  <div class="col">
-    <img src="img/contact2.jpg" alt=""/>
-  </div>
-</div>
+  <section class="contact">
+    <h2 class="contact-heading">let's stay in touch</h2>
+    <p>write ma at contact@theawwwesomes.org<br> or catch me on social media</p>
   </section>
-</main>
 
-<footer>
-  <div class="container">
-    <div class="social-icons-container">
-  <a href=""><img src="img/twitter.svg" class="social-icon" alt="Twitter icon"/></a>
-  <a href=""><img src="img/facebook.svg" class="social-icon" alt="Facebook icon"/></a>
-  <a href=""><img src="img/pinterest.svg" class="social-icon" alt="Pinterest icon"/></a>
-  <a href=""><img src="img/instagram.svg" class="social-icon" alt="Instagram icon"/></a>
-</div>
-  <p>designed by Anna Włódarkiewicz<br>
-</p>
-</div>
-</footer>
-  </body>
+  <section class="row">
+    <div class="centered">
+      <p class="outro">Fashion axe austin DIY wolf 3 wolf moon, direct trade YOLO tote bag paleo blog. Cloud bread cray, 3 wolf moon before they sold out literally normcore retro ennui fam umami letterpress actually distillery vinyl. Wayfarers slow-carb umami VHS.<br>        My classes: https://www.skillshare.com/<wbr>classes/<wbr>Creative-Coding-Animating-SVG-with-Simple-CSS-Code/<wbr>1735436116/projects Unicorn activated charcoal fanny pack tbh subway tile knausgaard PBR&B. Fashion axe austin DIY wolf 3 wolf moon,
+        direct trade YOLO tote bag paleo blog. Meggings cloud bread cray, 3 wolf moon before they sold out literally normcore retro ennui fam umami letterpress actually distillery vinyl. Wayfarers slow-carb umami VHS. Unicorn activated charcoal fanny
+        pack tbh subway tile knausgaard PBR&B. Keytar letterpress taxidermy disrupt celiac beard woke chillwave jean shorts williamsburg brunch yr. Gochujang 90's vinyl tacos. Wayfarers bitters shaman, portland kogi kale chips glossier. Selvage edison
+        bulb vice chicharrones tousled, lumbersexual meh. Vape tote bag chicharrones waistcoat, knausgaard polaroid disrupt pinterest chambray. Umami mixtape truffaut taxidermy listicle adaptogen normcore wolf church-key mustache poke blog tacos chicharrones
+        fingerstache. Tumeric scenester letterpress yr enamel pin leggings asymmetrical, cloud bread keffiyeh fanny pack flexitarian banjo vinyl kinfolk.</p>
+        <img src="img/fortune.jpeg" alt="plant" class="object-fit">
+        <p>All photos are taken from <a href="http://usplash.com" target="_blank">Unsplash</a>.</p>
+    </div>
+  </section>
+  </div>
+  <footer>
+    <h3>enjoy the classes!</h3>
+    <p>have fun with CSS! layout designed & coded by <a href="http://theawwwesomes.org" target="_blank">The Awwwesomes</a><br>Visit <a href="https://instagram.com/theawwwesomes" target="_blank">my instagtram</a></p>
+    <p class="writing-mode">by Aga Naplocha</a>
+  </footer>
+</body>
 </html>
